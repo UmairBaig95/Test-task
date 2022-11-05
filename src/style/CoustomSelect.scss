@@ -1,0 +1,41 @@
+.dropdown-custom {
+    input {
+      position: relative;
+      width: 100%;
+      height: 3rem;
+      text-align: left;
+      color: black;
+      border: none;
+      border-radius: 0px;
+      border-bottom: 2px solid #d7dbda;
+      background-color: #f1f6f5;
+      padding-bottom: 0rem;
+      padding-top: 1.3rem;
+    }
+    ::after {
+      display: none;
+    }
+  
+    input:hover,
+    input:focus,
+    input:active {
+      border: none;
+      color: black;
+      border-radius: 0px;
+      border-bottom: 2px solid #008379;
+      box-shadow: none;
+      background-color: #f1f6f5;
+    }
+    span {
+      position: absolute;
+      top: 3.2rem;
+      right: 1.5rem;
+    }
+    .dropDropMenuCoustomClass {
+      background-color: white;
+      width: 98%;
+      border-radius: 0px;
+      position: absolute;
+      top: 5rem;
+    }
+  }

@@ -1,0 +1,15 @@
+.btn-success {
+  float: right;
+  padding: 1em;
+  background-color: #f35429;
+  border: none;
+  color: white;
+
+  &:hover,
+  :focus,
+  :active,
+  :visited {
+    background-color: #c2340d;
+    color: white;
+  }
+}
